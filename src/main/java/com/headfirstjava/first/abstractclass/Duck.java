@@ -8,6 +8,10 @@ import com.headfirstjava.first.duckinterface.QuackBehavior;
  * @date: 2020/10/18
  */
 public abstract class Duck {
+    /**
+     * 为行为接口类型声明两个引用变量，
+     * 所有鸭子子类都继承他们
+     */
 
     public FlyBehavior flyBehavior;
 
@@ -22,6 +26,9 @@ public abstract class Duck {
 
 
     public void performFly(){
+        /**
+         * 委托给行为类来执行
+         */
         flyBehavior.fly();
     }
 
