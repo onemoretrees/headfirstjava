@@ -6,5 +6,8 @@ package com.headfirstjava.first.duckinterface;
  */
 public interface FlyBehavior {
 
+    /**
+     * 飞行行为的飞行方法
+     */
     public void fly();
 }

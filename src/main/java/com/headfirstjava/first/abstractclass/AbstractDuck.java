@@ -7,7 +7,7 @@ import com.headfirstjava.first.duckinterface.QuackBehavior;
  * @author: liuyuhang
  * @date: 2020/10/18
  */
-public abstract class Duck {
+public abstract class AbstractDuck {
     /**
      * 为行为接口类型声明两个引用变量，
      * 所有鸭子子类都继承他们
@@ -17,10 +17,13 @@ public abstract class Duck {
 
     public QuackBehavior quackBehavior;
 
-    public Duck(){
+    public AbstractDuck(){
 
     };
 
+    /**
+     * 基类中的 显示方法
+     */
     public abstract void display();
 
 

@@ -1,6 +1,6 @@
 package com.headfirstjava.first.vo;
 
-import com.headfirstjava.first.abstractclass.Duck;
+import com.headfirstjava.first.abstractclass.AbstractDuck;
 import com.headfirstjava.first.duckimterfaceimpl.FlyNoWay;
 import com.headfirstjava.first.duckimterfaceimpl.Quack;
 
@@ -8,7 +8,7 @@ import com.headfirstjava.first.duckimterfaceimpl.Quack;
  * @author: liuyuhang
  * @date: 2020/10/18
  */
-public class ModelDuck extends Duck {
+public class ModelDuck extends AbstractDuck {
 
     public ModelDuck(){
         flyBehavior = new FlyNoWay();

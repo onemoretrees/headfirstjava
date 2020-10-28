@@ -6,5 +6,8 @@ package com.headfirstjava.first.duckinterface;
  */
 public interface QuackBehavior {
 
+    /**
+     * 呱呱叫的叫方法
+     */
     public void quack();
 }

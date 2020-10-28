@@ -2,7 +2,7 @@ package com.headfirstjava.first.test;
 
 import com.headfirstjava.first.duckimterfaceimpl.FlyRocketPowered;
 import com.headfirstjava.first.vo.MallardDuck;
-import com.headfirstjava.first.abstractclass.Duck;
+import com.headfirstjava.first.abstractclass.AbstractDuck;
 import com.headfirstjava.first.vo.ModelDuck;
 
 /**
@@ -12,12 +12,12 @@ import com.headfirstjava.first.vo.ModelDuck;
 public class MiniDucksSimulatorTest {
 
     public static void main(String[] args) {
-        Duck mallard = new MallardDuck();
+        AbstractDuck mallard = new MallardDuck();
         mallard.performQuack();
         mallard.performFly();
 
 
-        Duck duck = new ModelDuck();
+        AbstractDuck duck = new ModelDuck();
         duck.performFly();
         duck.setFlyBehavior(new FlyRocketPowered());
         duck.performFly();
