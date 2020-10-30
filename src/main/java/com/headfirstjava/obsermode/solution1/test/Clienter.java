@@ -13,6 +13,9 @@ public class Clienter {
     /**
      * https://www.cnblogs.com/V1haoge/p/6513651.html
      * 参考链接
+     * 本次增加注释，为了体验 git commit message 规范
+     * 规范参考链接
+     * https://juejin.im/post/6844903635533594632
      * @param args
      */
     public static void main(String[] args) {
