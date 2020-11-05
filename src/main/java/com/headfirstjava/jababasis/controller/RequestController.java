@@ -42,4 +42,16 @@ public class RequestController {
     }
 
 
+    /**
+     * @RequestMapping("/requestDefaultMethod")
+     * 上面这种类型的请求，如果只有值的话，那就是默认的，默认的 GET POST PUT 都可以
+     * @return
+     */
+    @RequestMapping("/requestDefaultMethod")
+    public String requestDefaultMethod(){
+
+        return "requestDefaultMethod";
+    }
+
+
 }
