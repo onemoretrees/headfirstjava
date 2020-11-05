@@ -61,4 +61,14 @@ public class RequestController {
      */
 
 
+    /**
+     *
+     * 常见单词翻译
+     * clue 线索
+     * clude 闭塞
+     * produces 用在控制层方法上面表示 指定返回的内容类型，仅当request请求头中的(Accept)类型中包含该指定类型才返回
+     * propagation PROPAGATION 传播 spring 的事务传播行为种类
+     */
+
+
 }
