@@ -113,4 +113,35 @@ public class EveryDayStudyLink {
      * https://blog.csdn.net/xxh_1229/article/details/108813542
      *
      */
+
+    /**
+     * 2020-11-06
+     *
+     */
+
+
+    /**
+     * 解决 No qualifying bean of type 问题
+     * https://blog.csdn.net/u010565545/article/details/100066824
+     */
+
+    /**
+     * Spring事务7种传播行为
+     * https://cloud.tencent.com/developer/article/1701449
+     */
+
+
+    /**
+     * rest 接口
+     * 规范 https://blog.csdn.net/h8y0bDJVUkwE1LboZlE/article/details/106654052
+     * demo https://www.javazhiyin.com/29174.html
+     * demo https://www.jianshu.com/p/e6b62b9f3b7b
+     */
+
+
+    /**
+     *
+     * idea Mac maven 默认仓库地址
+     * /Users/liuyuhang/.m2/repository
+     */
 }
