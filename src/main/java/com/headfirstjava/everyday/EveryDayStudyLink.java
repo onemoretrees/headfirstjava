@@ -157,6 +157,11 @@ public class EveryDayStudyLink {
      * https://blog.csdn.net/sinat_25306771/article/details/55257901
      */
 
+    /**
+     * git无法pull仓库 报错refusing to merge unrelated histories
+     * https://blog.csdn.net/weixin_41858542/article/details/81202972
+     */
+
 
     /**
      * SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
