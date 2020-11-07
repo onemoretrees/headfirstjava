@@ -144,4 +144,10 @@ public class EveryDayStudyLink {
      * idea Mac maven 默认仓库地址
      * /Users/liuyuhang/.m2/repository
      */
+
+    /**
+     * https://www.cnblogs.com/zhou-chao/p/7678899.html
+     * git 本地分支和远程分支关联错误或者重新关联
+     *
+     */
 }
