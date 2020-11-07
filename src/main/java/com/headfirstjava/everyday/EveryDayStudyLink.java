@@ -150,4 +150,16 @@ public class EveryDayStudyLink {
      * git 本地分支和远程分支关联错误或者重新关联
      *
      */
+
+
+    /**
+     * Git错误non-fast-forward后的冲突解决
+     * https://blog.csdn.net/sinat_25306771/article/details/55257901
+     */
+
+
+    /**
+     * SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+     * https://www.cnblogs.com/justlove/p/7637681.html
+     */
 }
