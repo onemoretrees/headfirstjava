@@ -153,6 +153,28 @@ public class EveryDayStudyLink {
 
 
     /**
+     * git 删除分支
+     * https://www.cnblogs.com/liyong888/p/9822410.html
+     */
+
+    /**
+     * git There is no tracking information for the current branch.
+     * https://blog.csdn.net/sinat_36246371/article/details/79738782
+     */
+
+    /**
+     * git pull
+     * https://www.runoob.com/git/git-push.html
+     */
+
+    /**
+     * refusing to merge unrelated histories
+     *
+     * https://blog.csdn.net/u012145252/article/details/80628451
+     */
+
+
+    /**
      * Git错误non-fast-forward后的冲突解决
      * https://blog.csdn.net/sinat_25306771/article/details/55257901
      */
@@ -161,6 +183,8 @@ public class EveryDayStudyLink {
      * git无法pull仓库 报错refusing to merge unrelated histories
      * https://blog.csdn.net/weixin_41858542/article/details/81202972
      */
+
+
 
 
     /**
