@@ -12,6 +12,29 @@ public class EveryDayStudyLink {
 
 
     /**
+     * git  查看分支情况
+     * https://www.jianshu.com/p/5adc552323ca
+     *
+     * git branch
+     * 👆查看本地分支
+     *
+     * git branch -a
+     * 👆查看本地分支和远程分支
+     *
+     * git branch -r
+     * 👆单独只查看远程分支
+     *
+     *
+     * git pull origin master:brantest
+     * 将远程主机origin的master分支拉取过来，与本地的brantest分支合并
+     *
+     * git push
+     * git push <远程主机名> <本地分支名>:<远程分支名>
+     *
+     */
+
+
+    /**
      *
      * git merge 和 git rebase 小结
      * https://www.cnblogs.com/veryvalley/p/8026580.html
@@ -23,6 +46,9 @@ public class EveryDayStudyLink {
     /**
      *
      * idea 注入数据提示 Field injection is not recommended
+     * 构造器（构造函数）注入:类同名构造函数
+     * setter 注入：字段 set 方法
+     * field 字段注入：字段 field 注入
      * https://blog.csdn.net/Li_Ya_Fei/article/details/104448398?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.channel_param&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.channel_param
      *
      *
@@ -42,10 +68,10 @@ public class EveryDayStudyLink {
      * https://www.cnblogs.com/everfight/p/git_push_local_branch.html
      *
      * 如果你本地的分支名称和远程名称相同，则使用以下命令：
-     *
      * git push origin branchName
-     * 如果本地的分支跟远程的分支不一样，则指定本地和远程的分支的名称：
      *
+     *
+     * 如果本地的分支跟远程的分支不一样，则指定本地和远程的分支的名称：
      * git push origin localBranchName:remoteBranchName
      *
      *
