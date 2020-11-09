@@ -26,11 +26,43 @@ public class EveryDayStudyLink {
      *
      *
      * git pull origin master:brantest
+     * git pull origin branch1:dev
      * 将远程主机origin的master分支拉取过来，与本地的brantest分支合并
      *
      * git push
      * git push <远程主机名> <本地分支名>:<远程分支名>
      *
+     *
+     * git branch -vv 查看分支关联情况
+     *
+     */
+
+
+
+    /**
+     * git branch --set-upstream-to=origin/branch1 dev
+     * 将本地分支 dev 和远程分支 branch1 相关联
+     *
+     */
+
+    /**
+     * 1⃣️git init 初始化仓库，这个命令在本地初始化了一个 master 本地仓库
+     * 2⃣️github 新建项目代码，GitHub 可以更改新建项目的默认分支名字，例如 main 或者 master 分支
+     * 3⃣️本地仓库和远程仓库建立关联
+     *  git remote add origin https://github.com/onemoretrees/gitcheet.git
+     *  将本地仓库和远程仓库关联起来
+     * 4⃣️这个时候分支还没有关联 ⚠️
+     * 5⃣️ git 本地 master 分支和远程 master 分支建立关联
+     * git branch --set-upstream-to=origin/master master
+     * 6⃣️ git pull
+     *
+     * ⚠️ 本地分支推送到远程
+     * 1⃣️ 切换到要推送的分支上面，
+     * 2⃣️ git push origin dev:dev1
+     * 3⃣️ 推送本地 dev 分支到远程 dev1 分支，
+     * 4⃣️ 本地 dev 分支代码推送到远程 dev 分支
+     *   git push origin dev:dev1
+     * 5⃣️
      */
 
 
@@ -217,4 +249,16 @@ public class EveryDayStudyLink {
      * SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
      * https://www.cnblogs.com/justlove/p/7637681.html
      */
+
+
+    /**
+     * @Requestmapping 映射多个 url
+     * https://blog.csdn.net/single_wolf_wolf/article/details/82702320
+     * demo
+     * @Controller
+     * @RequestMapping({"/params", "/"})
+     * public class ParamsController {}
+     */
+
+
 }
