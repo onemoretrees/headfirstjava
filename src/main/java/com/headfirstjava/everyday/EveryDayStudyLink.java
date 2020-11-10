@@ -261,4 +261,14 @@ public class EveryDayStudyLink {
      */
 
 
+    /**
+     *
+     * mysql 导入多个文件
+     * 使用 source 命令
+     * https://my.oschina.net/u/4406817/blog/3350411
+     *
+     * ⚠️：这个命令是要在系统的命令行窗口执行的，在 Navicate 自己本地没有测试成功
+     */
+
+
 }
