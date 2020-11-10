@@ -37,6 +37,10 @@ public class EveryDayStudyLink {
      *
      */
 
+    /**
+     * git Your local changes to the following files would be overwritten by checkout
+     * https://blog.csdn.net/qq_32452623/article/details/75645578
+     */
 
 
     /**
@@ -72,6 +76,28 @@ public class EveryDayStudyLink {
      * https://www.cnblogs.com/veryvalley/p/8026580.html
      *
      *
+     */
+
+
+    /**
+     * 放弃 git 修改，已经 git add 或者 没有 git add
+     * https://www.cnblogs.com/qufanblog/p/7606105.html
+     *
+     */
+
+
+    /**
+     * git log 命令
+     * https://www.jianshu.com/p/0805b5d5d893
+     */
+
+
+    /**
+     * 跨域定义
+     * https://blog.csdn.net/ppxin/article/details/94717173
+     *
+     * 跨越解决方法
+     * https://blog.csdn.net/echizao1839/article/details/106938167/
      */
 
 
@@ -269,6 +295,8 @@ public class EveryDayStudyLink {
      *
      * ⚠️：这个命令是要在系统的命令行窗口执行的，在 Navicate 自己本地没有测试成功
      */
+
+
 
 
 }
