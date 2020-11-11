@@ -1,5 +1,16 @@
 package com.headfirstjava.everyday;
 
+import com.headfirstjava.service.User2Service;
+import lombok.SneakyThrows;
+import org.junit.Test;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.net.URLConnection;
+import java.nio.charset.Charset;
+
 /**
  * @author: liuyuhang
  * @date: 2020/11/05
@@ -91,6 +102,10 @@ public class EveryDayStudyLink {
      * https://www.jianshu.com/p/0805b5d5d893
      */
 
+
+    /**
+     * git add
+     */
 
     /**
      * 跨域定义
@@ -297,6 +312,43 @@ public class EveryDayStudyLink {
      */
 
 
+    /**
+     * lombok @SneakyThrows 注解
+     * 该注解用来处理一些必须处理的异常，受检异常，每次都要去处理这些代码，这个注解可以骗过编译器
+     * https://www.jianshu.com/p/7d0ed3aef34b
+     */
+
+    /**
+     * http urlConnection
+     * http://www.blogjava.net/supercrsky/articles/247449.html
+     * https://www.cnblogs.com/zhuyeshen/p/11429576.html
+     */
+
+    @SneakyThrows
+    @Test
+    public void urlConnectionTest(){
+        String message = "";
+
+        URL url=new URL("http://www.baidu.com");
+        HttpURLConnection connection= (HttpURLConnection) url.openConnection();
+        connection.setRequestMethod("GET");
+        connection.setConnectTimeout(5*1000);
+        connection.connect();
+        InputStream inputStream=connection.getInputStream();
+
+        byte[] data=new byte[1024];
+        StringBuffer sb=new StringBuffer();
+        int length=0;
+        while ((length=inputStream.read(data))!=-1){
+            String s=new String(data, Charset.forName("utf-8"));
+            sb.append(s);
+        }
+        message=sb.toString();
+
+        System.out.println(message);
+        inputStream.close();
+        connection.disconnect();
+    }
 
 
 }
