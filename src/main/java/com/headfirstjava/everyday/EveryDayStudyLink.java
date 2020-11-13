@@ -197,6 +197,11 @@ public class EveryDayStudyLink {
      * idea 关闭 xml 文件黄色背景
      * https://blog.csdn.net/u010318957/article/details/72459183
      *
+     * Mac 更改步骤
+     * perferences > editors > inspections > 右侧选择 SQL >
+     * 取消勾选 No data sources configured
+     * 取消勾选 SQL dialect detection
+     *
      */
 
     /**
