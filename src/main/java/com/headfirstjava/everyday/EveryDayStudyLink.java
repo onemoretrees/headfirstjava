@@ -336,6 +336,11 @@ public class EveryDayStudyLink {
      * https://segmentfault.com/a/1190000003019959
      */
 
+    /**
+     * maven 私附服设置
+     * https://my.oschina.net/heweipo/blog/481047
+     */
+
     @SneakyThrows
     @Test
     public void urlConnectionTest(){
