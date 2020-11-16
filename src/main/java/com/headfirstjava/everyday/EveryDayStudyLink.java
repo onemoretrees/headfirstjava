@@ -337,7 +337,7 @@ public class EveryDayStudyLink {
      */
 
     /**
-     * maven 私附服设置
+     * maven 私服设置
      * https://my.oschina.net/heweipo/blog/481047
      */
 
