@@ -329,6 +329,13 @@ public class EveryDayStudyLink {
      * https://www.cnblogs.com/zhuyeshen/p/11429576.html
      */
 
+
+    /**
+     * maven project>build>plugins
+     *
+     * https://segmentfault.com/a/1190000003019959
+     */
+
     @SneakyThrows
     @Test
     public void urlConnectionTest(){
