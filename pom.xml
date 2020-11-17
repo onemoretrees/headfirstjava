@@ -69,6 +69,15 @@
 		</dependency>
 
 
+		<!-- 引入一个常见的封装工具类, -->
+		<!-- 工具组件参考链接如下 https://www.hutool.cn/docs/#/?id=%e5%8c%85%e5%90%ab%e7%bb%84%e4%bb%b6-->
+		<dependency>
+			<groupId>cn.hutool</groupId>
+			<artifactId>hutool-all</artifactId>
+			<version>5.4.2</version>
+		</dependency>
+
+
 
     </dependencies>
 

@@ -354,6 +354,29 @@ public class EveryDayStudyLink {
 
 
     /**
+     * maven settings 文件讲解
+     * https://www.cnblogs.com/hongmoshui/p/10762272.html
+     * https://www.cnblogs.com/ctxsdhy/p/8482725.html
+     */
+
+    /**
+     * maven 站点生成
+     * https://blog.csdn.net/p106786860/article/details/52884750
+     */
+
+
+    /**
+     * maven 实战
+     * https://my.oschina.net/u/4588451/blog/4681290
+     */
+
+    /**
+     * maven 常见命令
+     * https://m.itshutong.com/articles/799
+     */
+
+
+    /**
      * mybatis-plus
      * https://baomidou.com/guide/#%E5%8F%82%E4%B8%8E%E8%B4%A1%E7%8C%AE
      *
@@ -365,6 +388,27 @@ public class EveryDayStudyLink {
      *
      * idea mybatis 插件
      * https://plugins.jetbrains.com/plugin/10119-mybatisx
+     */
+
+    /**
+     * produces 指定返回的值类型和编码类型
+     *
+     * https://blog.csdn.net/weixin_36416680/article/details/84066072
+     *
+     * consumes 指定处理哪种请求
+     */
+
+
+    /**
+     * request.getHeadNames 方法
+     * https://www.nonelonely.com/article/1587964492138
+     */
+
+    /**
+     * idea 点进去第三方源码，点击 download sources 失败，
+     * https://www.liangzl.com/get-article-detail-128904.html
+     *
+     * 如果配置的是私服，如果私服中没有 xxxsources.jar，那么 download 就会失败
      */
 
     @SneakyThrows
