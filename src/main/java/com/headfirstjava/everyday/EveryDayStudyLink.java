@@ -336,9 +336,35 @@ public class EveryDayStudyLink {
      * https://segmentfault.com/a/1190000003019959
      */
 
+
+    /**
+     * Maven 可选依赖和排除依赖
+     * https://www.cnblogs.com/shi-yi-ge/p/5407081.html
+     */
+
     /**
      * maven 私服设置
      * https://my.oschina.net/heweipo/blog/481047
+     */
+
+    /**
+     * Maven 仓库优先级
+     * https://swenfang.github.io/2018/06/03/Maven-Priority/
+     */
+
+
+    /**
+     * mybatis-plus
+     * https://baomidou.com/guide/#%E5%8F%82%E4%B8%8E%E8%B4%A1%E7%8C%AE
+     *
+     * 使用配置
+     * https://baomidou.com/config/#%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE
+     *
+     * gitee 官网
+     * https://gitee.com/baomidou/mybatis-plus/tree/3.0/
+     *
+     * idea mybatis 插件
+     * https://plugins.jetbrains.com/plugin/10119-mybatisx
      */
 
     @SneakyThrows
