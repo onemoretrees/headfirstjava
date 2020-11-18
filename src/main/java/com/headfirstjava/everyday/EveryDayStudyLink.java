@@ -418,6 +418,16 @@ public class EveryDayStudyLink {
      * https://www.tianmaying.com/tutorial/spring-mvc-interceptor
      */
 
+    /**
+     * git 改了文件名字
+     * 之后，新的文件提交上去了，并且提交了代码，远程仓库里面既有新的文件，也有老的文件
+     * 这个时候可以先使用 git restore -- staged <文件名字>
+     *     然后使用 git rm <文件名字>
+     *         最后使用 git commit 和 git push 来提交和推送文件，这样在远程仓库里面就没有了旧的文件，只剩下新的文件
+     *         https://www.jianshu.com/p/dcef204dba74
+     *         https://blog.csdn.net/qq_42780289/article/details/98353792
+     */
+
     @SneakyThrows
     @Test
     public void urlConnectionTest(){
