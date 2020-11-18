@@ -411,6 +411,13 @@ public class EveryDayStudyLink {
      * 如果配置的是私服，如果私服中没有 xxxsources.jar，那么 download 就会失败
      */
 
+
+    /**
+     * spring-interceptor
+     * 拦截器拦截，通常拦截没有登陆的用户进行登陆操作
+     * https://www.tianmaying.com/tutorial/spring-mvc-interceptor
+     */
+
     @SneakyThrows
     @Test
     public void urlConnectionTest(){
