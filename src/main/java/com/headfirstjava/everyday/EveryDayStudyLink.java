@@ -249,6 +249,15 @@ public class EveryDayStudyLink {
      * /Users/liuyuhang/.m2/repository
      */
 
+
+    /**
+     * mvn install
+     * 可以安装一些不在外部网络可以访问的仓库地址里面包含的仓库
+     * 例如：我有一个私有服务器，假设了一个nexus 用来存储 maven dependency，那么我要在内网里面才可以访问这个
+     * dependency，我就可以使用 mvn install 把这个 jar 安装到我本地仓库里面
+     * https://www.cnblogs.com/shamo89/p/8930543.html
+     */
+
     /**
      * https://www.cnblogs.com/zhou-chao/p/7678899.html
      * git 本地分支和远程分支关联错误或者重新关联
