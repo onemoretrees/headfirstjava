@@ -407,6 +407,17 @@ public class EveryDayStudyLink {
      * consumes 指定处理哪种请求
      */
 
+     /**
+      * 5242800 b
+      * 5242800/1024/1024 约等于 5MB
+      */
+
+      /**
+       * MultipartFile.getOriginalFilename
+       * 返回客户端文件系统中的原始文件名字
+       * https://www.cnblogs.com/zhengyuanyuan/p/9575807.html
+       */
+
 
     /**
      * request.getHeadNames 方法
@@ -436,6 +447,13 @@ public class EveryDayStudyLink {
      *         https://www.jianshu.com/p/dcef204dba74
      *         https://blog.csdn.net/qq_42780289/article/details/98353792
      */
+
+     /**
+      * 常见单词翻译
+      * bulletin 公告
+      * assign 分配，指定
+      * suffix 后缀
+      */
 
     @SneakyThrows
     @Test
