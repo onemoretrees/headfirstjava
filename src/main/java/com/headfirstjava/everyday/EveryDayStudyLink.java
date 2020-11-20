@@ -437,6 +437,10 @@ public class EveryDayStudyLink {
      *         https://blog.csdn.net/qq_42780289/article/details/98353792
      */
 
+    /**
+     * idea-branch-add
+     */
+
     @SneakyThrows
     @Test
     public void urlConnectionTest(){
