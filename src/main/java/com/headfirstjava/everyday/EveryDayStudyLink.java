@@ -407,6 +407,17 @@ public class EveryDayStudyLink {
      * consumes 指定处理哪种请求
      */
 
+     /**
+      * 5242800 b
+      * 5242800/1024/1024 约等于 5MB
+      */
+
+      /**
+       * MultipartFile.getOriginalFilename
+       * 返回客户端文件系统中的原始文件名字
+       * https://www.cnblogs.com/zhengyuanyuan/p/9575807.html
+       */
+
 
     /**
      * request.getHeadNames 方法
@@ -435,10 +446,6 @@ public class EveryDayStudyLink {
      *         最后使用 git commit 和 git push 来提交和推送文件，这样在远程仓库里面就没有了旧的文件，只剩下新的文件
      *         https://www.jianshu.com/p/dcef204dba74
      *         https://blog.csdn.net/qq_42780289/article/details/98353792
-     */
-
-    /**
-     * idea-branch-add
      */
 
     @SneakyThrows
