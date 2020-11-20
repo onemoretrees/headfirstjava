@@ -453,6 +453,34 @@ public class EveryDayStudyLink {
      * idea-create-branch add code
      */
 
+     /**
+      * ribbon 负载均衡
+      * https://blog.csdn.net/wo18237095579/article/details/83383337?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.control
+      */
+
+      /**
+       * @RequestParam 绑定参数
+       * https://www.cnblogs.com/lemon-coke-pudding/p/12722950.html
+       */
+
+       /**
+        * @Target(ElementType.TYPE) 注解
+        * https://www.cnblogs.com/anpajin/p/6376917.html
+        * 1.CONSTRUCTOR:用于描述构造器
+　　　　  * 2.FIELD:用于描述域
+    　　　*　3.LOCAL_VARIABLE:用于描述局部变量
+    　　　*　4.METHOD:用于描述方法
+    　　　*　5.PACKAGE:用于描述包
+    　　　*　6.PARAMETER:用于描述参数
+    　　　*　7.TYPE:用于描述类、接口(包括注解类型) 或enum声明
+        */
+
+        /**
+         * 
+         * feignclient 注解
+         * https://www.cnblogs.com/smiler/p/10689894.html
+         */
+
     @SneakyThrows
     @Test
     public void urlConnectionTest(){
